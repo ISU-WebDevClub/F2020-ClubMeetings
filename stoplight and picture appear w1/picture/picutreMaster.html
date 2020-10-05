@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- this tag tells the browser what types of characters that could be on the page and to display them 
+        if they appear. This particular charset covers most of the characters in the world
+    -->
+    <meta charset="UTF-8">
+    <!--this tag tells the browser what width to set the view to. And how much to scale all the content. These two are the defaults and youll use these most of the time.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title that appears on the tab on the browser-->
+
+     <!--if you had any css it would go before this tag-->
+    <title>Picture to appear</title>
+</head>
+<body>
+    <!--largest size of text that you can use- they go from h1-h6 and you can set a custome pixel (font) size in the css-->
+    <h1>In this program you will learn how to use basic functionality of javascript and html to make a picutre appear</h1>
+    <!--image to show- setting the style inline (in the tag) because its just one basic attribute. Also the ID is to be able to accsess this element in the js. Can only use the ID once- only this element can have this ID. 
+        Only one ID per element. Unlike classes in this regard.  -->
+    <img src="img/tree.jpg" alt="" style="display: none;" id="tree">
+    <!--putting-->
+    <button class="appearBTN" onclick="onClick()">Click to make me appear</button>
+
+    <!-- challenge - make another button that appears when the tree appears and the click me button disappears.
+         When the tree appears the other button should appear and when clicked on it and the tree disappears and the orginal button reappears.
+    -->
+
+<script>
+    //you can do it in here as well- but for more in depth sites with more content you're going to want a seperate file. Thats common practice as well.
+
+    //see index.js for explanation
+//     function onClick(){
+    
+//      document.getElementById("tree").style.display = "initial"; 
+// }
+
+</script>
+<!--scripts always go at the bottom of the before the closing body tag-->
+
+<script src="./js/index.js"></script>
+</body>
+</html>

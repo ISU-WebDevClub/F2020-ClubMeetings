@@ -1,0 +1,24 @@
+.traffic-light{
+    position: absolute;
+    display:block;
+    left: 50%;
+    top: 50%; 
+    margin-left: -60px;
+    margin-top: -160px;
+    background-color:#000;
+    width:120px;
+    height:320px;
+    border-radius:30px;
+}
+/**
+the order of the elements do not matter so much but they do take effect in a line- it goes the first line and applies in then the next
+**/
+.bulb{
+    margin: 5px;
+    height: 100px;
+    width: 110px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: vertical;
+    position: relative;
+}
